@@ -1,0 +1,700 @@
+/* ---- Edit 247Portal-Blue ---- */
+
+.hid { 
+	visibility:hidden;
+	position:absolute;
+	top:-600px;
+	clear:both;
+}
+
+img {
+  padding:5px;
+}
+
+body {
+  color            : #000000;
+  margin-left      : 20px;
+  margin-right     : 20px;
+  margin-bottom    : 20px;
+  padding          : 0px;
+  font-family      : arial, sans-serif;
+  font-size        : 12px;
+  background-color:#93C8E4;
+  background-image:url(../images/bodybk.gif);
+  background-position:top left;
+ 
+}
+
+
+
+/* ---- menu styles ---- */
+#container {
+	margin-top: 0px;
+	width: 236px;
+		}
+	
+
+#left {
+	text-align: left;
+	width: 198px;
+	padding-top: 0px;
+	margin: auto 0;
+	float: left;
+	}
+
+#right {
+	margin-left: 198px;
+	background-color: #FFFFFF;
+	text-align: left;
+	margin-top: 0px;
+	width: 236px;}
+
+#newsflash {
+width:236px;
+	text-align: center;
+	margin-top: 0px;
+	float: left;}
+
+.newsflashContainer {
+padding-left:40px;
+	width: 160px;
+	text-align: left;
+	margin-left: 25px;
+	padding-bottom: 10px;
+	}
+
+#latestnews {
+	text-align: center;
+	margin-top: 2px;
+	float: left;}
+
+#login {
+	text-align: center;
+	margin-top: 2px;
+	float: left;
+	width:236px;
+	}
+
+#mainlevel-nav {
+
+float:right;
+
+	height: 25px;
+	text-align: right;
+	position: relative;
+	padding-top: 50px;
+	padding-right:40px;
+}
+ #mainlevel-nav ul{
+
+list-style-type: none;
+text-align: center;
+}
+#mainlevel-nav li {
+background:none;
+	padding: 5px;
+	 display: inline;
+	list-style-type: none;
+}
+#mainlevel-nav a {
+	text-decoration: none;
+	color: #0066CC;
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	padding: 5px;
+	height: 1%;
+	text-transform:lowercase;
+}
+
+#mainlevel-nav a:hover {
+	color: #6FB1FB;
+	text-decoration: none;
+	background-color: #FFF;
+
+}
+a.mainlevel-nav:active {
+color: #808080;
+}
+
+#content h2 { margin: 0 0 .5em 0; }
+
+/*------------------------------*/
+
+
+td, tr, p, div {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 12px;
+  color            : #333333;
+}
+hr {
+  color            : #999999;
+  height           : 1px;
+  width            : 100%;
+}
+
+.main { 
+  float            : left; 
+  width            : 100%;
+  margin           : 0px; 
+  padding          : 0px;
+}
+.contentdescription { 
+  width            : auto !important;
+  display          : block;
+} 
+#buttons {
+  float            : right;
+  margin           : 0px;
+  padding          : 0px;
+  width            : 50%;
+}
+
+.sublevel {
+  padding-left     : 10px;
+}
+
+table.moduletable {
+  width			   : 100%;
+  table-layout	   : auto;
+}
+
+/* this is the title style for MENUS, BOXs and so on */
+table.moduletable th {
+  font-size        : 11px;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  text-align       : left;
+  height           : 21px;
+  line-height      : 21px;
+  text-indent      : 8px;
+  letter-spacing   : 1px;
+  color:#990000;
+  
+}
+table.moduletable td {
+  padding-left     : 0px;
+  padding-right    : 0px;
+}
+#search {
+  float            : left;
+  margin-top       : 5px;
+  border           : 1px solid #cccccc;
+  padding          : 0px;
+  width´           : 123px !important;
+  width            : 125px;
+  height           : 16px !important;
+  height           : 16px;
+  overflow         : hidden;
+}
+#search .inputbox {
+  border           : 0px;
+  margin-top       : 0px;
+  padding          : 2px 3px 2px 6px !important;
+  padding          : 0px 3px 2px 6px;
+  font-family      : arial, helvetica, sans-serif;
+  font-size        : 10px;
+  height           : 12px !important;
+  height           : 12px;
+  width            : 123px !important;
+  width            : 125px;
+  color            : #999999;
+  background       : #FFFFFF;
+}
+.back_button {
+  color            : #333333;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  white-space      : normal;
+  font-weight      : normal;
+  padding-bottom   : 4px;
+  padding-left     : 20px;
+  padding-right    : 2px;
+  padding-top      : 1px;
+  margin-right     : 4px;
+  float            : right;
+  font-weight      : normal;
+  line-height      : 10px;
+  text-decoration  : none; 
+}
+.button {
+  font-size        : 11px;
+  color            : #333333;
+  border           : 1px solid #999999;
+  margin-bottom    : 5px;
+  background-color : #EDEDED;
+  padding          : 1px;
+}
+.inputbox {
+  border           : 1px solid #999999;
+  background-color : #EDEDED;
+  margin-bottom    : 5px;
+  color			   : #333333;
+}
+.sectiontableheader {
+  font-size        : 11px;
+  font-weight      : normal;
+  text-transform   : uppercase;
+  letter-spacing   : 1px;
+  color            : #333333;
+  background       : #EDEDED;
+  padding          : 1px;
+}
+.sectiontableentry1 {
+  vertical-align   : top;
+  padding          : 3px;
+  background       : #E3E3E3;
+  border-top       : 1px solid #FFFFFF;
+  border-bottom    : 1px solid #999999;
+}
+.sectiontableentry2 {
+  vertical-align   : top;
+  padding          : 3px;
+  border-top       : 1px solid #FFFFFF;
+  border-bottom    : 1px solid #999999;
+}
+a.mainlevel  {
+  margin           : 0px;
+  padding          : 0px;
+  font-size        : 12px;
+  width            : 168px;
+  background-color : #ECEAD8;
+  text-indent      : 10px;
+}
+a.mainlevel: link {
+  padding          : 0px 0px 0px 0px;
+  font-size        : 12px;
+  width            : 168px;
+  background-color : #E3E3E3;
+  text-indent      : 10px;
+}
+a.mainlevel:link, a.mainlevel:visited {
+  display          : block;
+  font-size        : 15px;
+  border-bottom    : 0px solid #FFF;
+  border-right    : 7px solid #003366;
+  background-color : #3F8CD9;
+  font-weight      : normal;
+  padding          : 2px 0px 2px 0px;
+  color            : #FFF;
+  width            : 148px;
+  text-indent      : 10px;
+  margin-bottom:2px;
+}
+a.mainlevel:hover {
+  background-color : #85B6E7;
+  font-size        : 15px;
+  font-weight      : normal;
+  text-decoration  : none;
+  text-indent      : 10px;
+}
+#active_menu {
+  color            : #333333;
+  background-color : #3F8CD9;
+  font-weight      : bold;
+}
+a#active_menu:hover {
+  color            : #333333;
+}
+a:link, a:visited {
+  font-size        : 11px;
+  color            : #003366;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+a:hover {
+  font-size        : 11px;
+  color            : #333333;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+a.category:link, a.category:visited {
+  font-size        : 11px;
+  font-weight      : bold;
+}
+a.readon:link, a.readon:visited {
+  color            : #003366;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+
+
+  white-space      : normal;
+  font-weight      : bold;
+
+  padding-bottom   : 3px;
+  padding-left     : 21px;
+  padding-right    : 2px;
+  padding-top      : 1px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+}
+a.readon:hover {
+  color            : #333333;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+
+
+  white-space      : normal;
+  font-weight      : bold;
+
+  padding-bottom   : 3px;
+  padding-left     : 21px;
+  padding-right    : 2px;
+  padding-top      : 1px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+}
+ul {float          : left;
+  margin           : 2px;
+  padding-left     : 10px;
+  list-style       : none;
+}
+li {
+  
+  line-height      : 15px;
+  padding-left     : 15px;
+  padding-top      : 0px;
+  background-image : url(../images/bullet.png) ;
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+     filter:alpha(opacity=90);
+     font-weight:bold;
+     background-color:#fff;
+}
+table.contenttoc {
+  border           : 1px solid #FFFFFF;
+  background       : #F1F1F1;
+  padding          : 5px;
+  margin-left      : 2px;
+  margin-bottom    : 2px;
+}
+.pagenavcounter {
+  font-size        : 10px;
+
+  color            : #003366;
+}
+.pagenavbar {
+  border-top       : 1px solid #999999;
+  padding          : 2px;
+}
+.pagenav {
+  font-weight      : bold;
+  color            : #CCCCCC;
+}
+a.pagenav:link, a.pagenav:visited {
+  text-decoration  : none;
+}
+a.pagenav:hover {
+  text-decoration  : none;
+}
+.date {
+  font-size        : 10px;
+  color            : #333333;
+  padding-right    : 10px;
+}
+.small {
+  font-size        : 10px;
+  color            : #333333;
+}
+.smalldark {
+  font-size        : 10px;
+  color            : #333333;
+}
+.createdate, .modifydate {
+  font-size        : 10px;
+  color            : #666666;
+}
+.content_vote {
+  font-size        : 10px;
+  height           : 22px;
+  padding-top      : 2px;
+  padding-bottom   : 2px;
+}
+.content_rating {
+  font-size        : 10px;
+  color            : #CC9900;
+}
+.pathway {
+  font-size        : 10px;
+  color            : #333333;
+  padding-left     : 8px;
+}
+a.pathway:link, a.pathway:visited {
+  font-size        : 10px;
+  padding-left     : 0px;
+}
+a.pathway:hover {
+  font-size        : 10px;
+  padding-left     : 0px;
+}
+table.content{
+  width            : 100%;
+  padding          : 0px;
+  border-collapse  : collapse;
+  border-spacing   : 0px;
+  margin-bottom    : 10px;
+}
+table.contentpane {
+  width            : 100%;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+}
+table.contentpaneopen {
+  width            : 100%;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+}
+.pollstableborder{
+  border-color     : #999999;
+}
+.contentheading, .componentheading {
+
+  font-size        : 11px;
+  font-weight      : bold;
+  line-height      : 24px;
+  text-transform   : lowercase;
+  text-align       : left;
+  color            : #3f8cd9;
+  width            : 100%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.title {
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  text-indent      : 8px;
+  font-size        : 20px;
+  text-align       : left;
+  color            : #FFFFFF;
+}
+.title a:link, .title a:visited {
+  font-size        : 20px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+.title a:hover {
+  font-size        : 20px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+.ontab {
+  border-left      : 1px solid #404040;
+  text-align       : center;
+  font-weight      : bold;
+  color            : #333333;
+  padding          : 5px;
+  cursor           : hand;
+  line-height      : 40px;
+}
+.offtab {
+  border-left      : 1px solid #404040;
+  text-align       : center;
+  color            : #999999;
+  font-weight      : normal;
+  padding          : 5px;
+  cursor           : hand;
+   line-height     : 40px;
+}
+.tabpadding {
+ border-left       : 1px solid #404040;
+}
+.pagetext {
+  visibility       : hidden;
+  position         : relative;
+  top              : -10;
+  background-color : #FFFFFF;
+  display          : none;
+}
+.footer {
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color            : #FFFFFF;
+  font-size        : 10px;
+  color            : #FFFFFF;
+  font-weight      : normal;
+ }
+.footer a:link, .footer a:visited {
+  font-size        : 11px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+.footer a:hover {
+  font-size        : 11px;
+  color            : #333333;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+.contact_email  {
+  width            : 100%;
+}
+.contact_email .inputbox {
+  width            : 345px;
+}
+
+
+/* Holiday Autos */
+
+
+/* CSS Document */
+
+.auto html, body {
+    height: 100%;
+}
+
+.auto body {margin:0px; padding:0}
+.auto img {border:0px;}
+
+/*CONTAINER ON ALL STATIC PAGES*/
+
+.auto #container {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    height: auto;
+	}
+	
+.auto html>body #container {
+    height: auto;
+	}
+/*END CONTAINER*/
+
+
+/*HEADER*/
+.auto div#header {
+	margin: 0 0 10px 0;
+	background-color: #ff9900;
+	width:770px;
+	height:0px; 
+visibility:hidden;
+
+}
+
+/*box model hack for header*/
+.auto div#head_pad {
+	padding:10px 5px 0px 5px;
+	}
+
+.auto div#branding {
+    float: left;
+    width: 30%;
+    margin: 0;
+    text-align: left;
+}
+
+.auto div#strapline {
+    float: right;
+    margin: 0;
+    text-align: right;
+}
+
+.auto div#nav {
+	float:right;
+	overflow:visible;
+	width:auto;
+	margin: 0;
+	}
+/*HEADER END*/ 
+
+/*CONTENT*/
+.auto div#content {
+     position: relative;
+	 float:left;
+     width: 760px;
+     margin: 0 0 50px 5px;
+     padding: 0;
+     text-align: left;
+    }
+
+
+/*FOOTER */
+.auto #footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #ff9900;
+	width:770px;
+	height:32px;
+}
+
+.auto #footer_dyn {
+	background-color: #ff9900;
+	width:770px;
+	height:32px;
+}
+
+.auto div#branding2 {
+    float: left;
+    width: 30%;
+    margin: 0;
+	padding:5px;
+    text-align: left;
+}
+
+.auto div#footlnks {
+    float: right;
+    margin: 0;
+    text-align: right;
+	width:60%;
+
+}
+/*FOOTER END*/
+
+/*COLUMNED PAGES*/
+
+.auto #sglcoll {
+	width: 185px;
+	float: left;
+		}
+		
+.auto #sglcolr {
+	width: 185px;
+	float: right;
+		}
+		
+.auto #dblcolr {
+	width: 560px;
+	float: right;
+		}
+		
+.auto #dblcoll {
+	width: 560px;
+	float: left;
+		}
+.auto #sglcol_third {
+	width:235px;
+	float:left;
+	margin-left:10px;
+	}
+
+/*GENERAL FORMATTING*/
+.auto .marg1 {margin-top:15px;}
+.auto .marg2 {margin-top:10px;}
+.auto .marg3 {margin:0}
+.auto .marg4 {margin-left:15px;}
+.auto .marg5 {margin-top:5px;}
+
+
+
+.auto .pad1{padding-top:10px;}
+.auto .pad2 {padding-left:5px;}
+.auto .pad3 {padding:5px}
+.auto .pad4 {padding:2px; }
+.auto .pad5 {padding-bottom:3px;}
+
+
+.auto .gen_floatl {float:left}
+.auto .gen_floatr {float:right}
+
+.auto .border1 {
+	border: 1px #9c9c9c dashed;
+	padding: 5px;
+	}
