@@ -10,27 +10,12 @@
 
 ?>
 <div class="page-header">
-<h3>Edit Holiday</h3>
+<h3>Edit Holiday - <?php echo $holiday['Holiday']['title']; ?></h3>
 </div>
 <?php 
 echo $this->Form->create('Holiday');
 ?>
 
-<table class="table table-striped table-hover">
-    <tr>
-        <th>Title</th>
-        <td></td>
-    </tr>
-    <tr>
-        <th>Homepage Title</th>
-        <td></td>
-    </tr>
-    <tr>
-        <th>Description</th>
-        <td></td>
-    </tr>
-    <tr>
-        <th>Price</th>
-        <td></td>
-    </tr>
-</table>
+<div class="form-group">
+<?php echo $this->Form->input('title') ?>
+</div>

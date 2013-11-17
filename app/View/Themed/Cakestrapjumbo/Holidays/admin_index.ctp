@@ -23,7 +23,7 @@
             <td style="vertical-align: middle;"><?php echo $holiday['Holiday']['title'] ?></td>
             <td style="vertical-align: middle;"><?php if ($holiday['Holiday']['special'] == 1) {echo "Yes";}else {echo "No";}; ?></td>
             <td style="vertical-align: middle;"><?php if ($holiday['Holiday']['price']) {echo $holiday['Holiday']['price'];}else {echo "No Price";}; ?></td>
-            <td style="vertical-align: middle;"><a class="btn btn-primary" href=holidays/edit>Edit</a></td>
+            <td style="vertical-align: middle;"><a class="btn btn-primary" href=holidays/edit/<?php echo $holiday['Holiday']['id']; ?>>Edit</a></td>
         </tr>
         
 

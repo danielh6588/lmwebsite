@@ -20,8 +20,14 @@ class HolidaysController extends AppController {
                 $this->set('holidays', $this->Holiday->find('all'));
 	}
         
-        public function admin_edit() {
+        public function admin_edit($id = NULL) {
             $this->layout='admin';
+            
+            if (!$id) {
+                throw new NotFoundException(__("Can't find holiday to edit"));
+            } else {
+                $this->set('holiday', $this->Holiday->findById($id));
+            }
 	}
         
         public function view($id = NULL) {
