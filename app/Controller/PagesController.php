@@ -58,6 +58,10 @@ class PagesController extends AppController {
             parent::beforeRender();
         }
         
+        public function admin_index() {
+            
+                $this->layout='admin';
+	}
        
 	public function display() {
 		$path = func_get_args();

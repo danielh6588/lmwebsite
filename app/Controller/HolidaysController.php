@@ -13,6 +13,16 @@ class HolidaysController extends AppController {
  */
 	public $scaffold;
 
+        public function admin_index() {
+            
+                $this->layout='admin';
+                
+                $this->set('holidays', $this->Holiday->find('all'));
+	}
+        
+        public function admin_edit() {
+            $this->layout='admin';
+	}
         
         public function view($id = NULL) {
             

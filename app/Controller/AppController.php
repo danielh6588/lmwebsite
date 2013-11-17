@@ -32,13 +32,16 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-    
+    public $helpers = array('Html', 'Form', 'Session');
+    public $components = array('Session');
     public $theme = "Cakestrapjumbo";
     
     public function beforeRender() {
         
         $this->loadModel('Category');
         $this->set('Category', $this->Category->find('all'));
+        $this->loadModel('AdminMenu');
+        $this->set('Adminmenu', $this->AdminMenu->find('all'));
         parent::beforeRender();
     }
     

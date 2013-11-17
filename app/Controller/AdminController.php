@@ -13,4 +13,9 @@ class AdminController extends AppController {
  */
 	public $scaffold;
 
+        
+        public function dashboard() {
+            $this->layout='home';
+        }
+
 }

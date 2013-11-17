@@ -13,6 +13,11 @@ class CategoriesController extends AppController {
  */
 	public $scaffold;
         
+        public function admin_index() {
+            
+                $this->layout='admin';
+	}
+        
         public function view($id = NULL) {
             
             if (!$id) {
