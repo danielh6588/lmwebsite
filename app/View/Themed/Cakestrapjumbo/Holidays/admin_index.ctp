@@ -13,6 +13,7 @@
         <tr>
         <th></th>
         <th>Holiday Title</th>
+        <th>Category</th>
         <th>Homepage</th>
         <th>Price</th>
         <th>Actions</th>
@@ -21,9 +22,10 @@
         <tr>
             <td style="vertical-align: middle;"><span class="thumbnail"><img style="height:75px; width: 75px;" src="<?php echo $holiday['Holiday']['image_url']; ?>" alt="<?php echo $holiday['Holiday']['title']; ?>"></span></td>
             <td style="vertical-align: middle;"><?php echo $holiday['Holiday']['title'] ?></td>
+            <td style="vertical-align: middle;"><?php echo $category; ?></td>
             <td style="vertical-align: middle;"><?php if ($holiday['Holiday']['special'] == 1) {echo "Yes";}else {echo "No";}; ?></td>
             <td style="vertical-align: middle;"><?php if ($holiday['Holiday']['price']) {echo $holiday['Holiday']['price'];}else {echo "No Price";}; ?></td>
-            <td style="vertical-align: middle;"><a class="btn btn-primary" href=holidays/edit/<?php echo $holiday['Holiday']['id']; ?>>Edit</a></td>
+            <td style="vertical-align: middle;"><?php echo $this->Html->link('Edit', array('action' =>  'edit', $holiday['Holiday']['id'])); ?></td>
         </tr>
         
 
